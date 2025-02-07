@@ -62,13 +62,17 @@
 
 //    }
 //}
+
+using algsstructures.AVL;
 using algsstructures.RedBlackTree;
 
-RedBlackTree<int, int> r = new RedBlackTree<int, int>();
-r.insert(19, 1); r.insert(20, 20); r.insert(21, 3); r.insert(22, 4); r.insert(13, 5);r.insert(10, 13); r.insert(11, 14); r.insert(12, 15); r.insert(1323, 16);
-r.displayTree();
-r.remove(20);
-r.remove(13);
-r.remove(21);
-r.remove(22);
-r.displayTree();
+RedBlackTree<int,int> a = new RedBlackTree<int,int>();
+a.insert(11,0);
+a.insert(12,0);
+a.insert(13,0);
+a.insert(14,0);
+a.insert(15,0);
+a.insert(16,0);
+a.displayTree();
+a.remove(13);
+a.displayTree();
